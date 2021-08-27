@@ -1,6 +1,10 @@
 {
     "name": "mvc-tech-blog",
     "version": "1.0.0",
+    "engines": {
+        "npm": "7.19.1",
+        "node": "v16.5.0"
+    },
     "description": "MVC Tech Blog Site",
     "main": "server.js",
     "scripts": {
