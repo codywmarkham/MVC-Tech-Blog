@@ -31,7 +31,6 @@ User.hasMany(Comment, {
     hooks:true
 });
 
-p
 Post.hasMany(Comment, {
     foreignKey: 'post_id',
     onDelete: 'cascade',
